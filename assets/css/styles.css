@@ -1,5 +1,35 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+
+html{
+
+	width: 100%; 
+	height: 100%;
+}
+
+body {
+margin: 1rem;
+background-color: lavender;
+background-image: url(../img/cat-gif.gif);
+background-repeat: no-repeat; 
+background-position: center;
+background-size: cover;
+color: chocolate;
+font-size: 5rem;
+overflow: hidden;
+}
+
+.grid-container{
+	/* vs code automatically refits and scales the elements to fit the container/tab */
+display: grid;
+grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); 
+/* giving each element a gap */
+gap: 2rem;
+margin: 10% 4rem 0 4rem; 
+}
+
+.last{
+
+	padding-bottom: 2rem; 
+	border-bottom: 2px solid brown; 
 }
