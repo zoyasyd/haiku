@@ -28,8 +28,26 @@ gap: 2rem;
 margin: 10% 4rem 0 4rem; 
 }
 
-.last{
+div {
+	transition-property: transform; 
+	transition-duration: 1s; 
+}
 
+.last{
+/* we created a simple underline on some of the words that have the .last class attached to it! */
 	padding-bottom: 2rem; 
 	border-bottom: 2px solid brown; 
+}
+
+/* glow effect + basic animation on hover
+.red-glow {
+
+	transition:all 0.5s; 
+
+}
+
+.red-glow:hover {
+color:red;
+transform: scale(1.5) rotate(45deg);
+text-shadow: 0 0 15px red; 
 }
