@@ -14,7 +14,7 @@ background-image: url(../img/cat-gif.gif);
 background-repeat: no-repeat; 
 background-position: center;
 background-size: cover;
-color: chocolate;
+color: rgb(119, 69, 12);
 font-size: 5rem;
 overflow: hidden;
 }
@@ -36,7 +36,7 @@ div {
 .last{
 /* we created a simple underline on some of the words that have the .last class attached to it! */
 	padding-bottom: 2rem; 
-	border: 10px dotted brown; 
+	border: 10px dotted rgb(97, 33, 3); 
 }
 
 /* glow effect + basic animation on hover
