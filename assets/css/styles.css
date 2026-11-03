@@ -22,9 +22,9 @@ overflow: hidden;
 .grid-container{
 	/* vs code automatically refits and scales the elements to fit the container/tab */
 display: grid;
-grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); 
+grid-template-columns:repeat(auto-fit, minmax(320px, 3fr)); 
 /* giving each element a gap */
-gap: 2rem;
+gap: 1rem;
 margin: 10% 4rem 0 4rem; 
 }
 
@@ -36,7 +36,7 @@ div {
 .last{
 /* we created a simple underline on some of the words that have the .last class attached to it! */
 	padding-bottom: 2rem; 
-	border-bottom: 2px solid brown; 
+	border: 10px dotted brown; 
 }
 
 /* glow effect + basic animation on hover
