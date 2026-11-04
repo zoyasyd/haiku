@@ -26,6 +26,7 @@ grid-template-columns:repeat(auto-fit, minmax(320px, 3fr));
 /* giving each element a gap */
 gap: 1rem;
 margin: 10% 4rem 0 4rem; 
+font-family: "Eater", serif;
 }
 
 div {
